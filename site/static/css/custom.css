@@ -1,0 +1,83 @@
+/* Custom Resets */
+ul {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+header {
+    background: #eee;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header .site-logo {
+    background: #666;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+nav ul {
+    list-style: none;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.ratched .messenger-app .desktop .messenger .header .minify {
+    display: none;
+}
+
+.admin-options {
+    background: #ddd;
+    padding: 20px;
+}
+
+.admin-options h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.admin-options a {
+    background: #666;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.button-set-status {
+    background: none repeat scroll 0% 0% #666;
+    color: #FFF;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.button-set-status:hover {
+    color: #fff;
+}
